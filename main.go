@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/config"
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/routes"
 	"github.com/alexedwards/scs/v2"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/config"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/routes"
 )
 
 var app config.AppConfig

@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/models"
 	"github.com/dgrijalva/jwt-go"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/models"
 )
 
 func generateAccessToken(userID string) (string, error) {

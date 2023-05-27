@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/endpoints"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/endpoints"
 )
 
 func Routes() http.Handler {

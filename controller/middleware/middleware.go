@@ -3,9 +3,9 @@ package middleware
 import (
 	"net/http"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/config"
 	"github.com/alexedwards/scs/v2"
 	"github.com/justinas/nosurf"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/config"
 )
 
 var app config.AppConfig

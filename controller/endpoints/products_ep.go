@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/models"
 	"github.com/gorilla/mux"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/models"
 )
 
 func CreateProduct(db *sql.DB) func(w http.ResponseWriter, r *http.Request) {

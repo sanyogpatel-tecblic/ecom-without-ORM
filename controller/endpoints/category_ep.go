@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/models"
 	"github.com/go-chi/chi"
 	"github.com/gorilla/mux"
 	_ "github.com/lib/pq"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/models"
 )
 
 var newID int

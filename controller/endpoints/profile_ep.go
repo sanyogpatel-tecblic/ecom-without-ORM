@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"git.tecblic.com/sanyog-tecblic/ecom/controller/models"
+	"github.com/sanyogpatel-tecblic/ecom-without-ORM/controller/models"
 )
 
 func GetUserProfile(db *sql.DB) func(w http.ResponseWriter, r *http.Request) {

@@ -1,4 +1,4 @@
-module git.tecblic.com/sanyog-tecblic/ecom
+module github.com/sanyogpatel-tecblic/ecom-without-ORM
 
 go 1.20
 
